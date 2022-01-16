@@ -1,0 +1,192 @@
+body{
+    background-image: radial-gradient(#CE9FFC, #7367f0);
+    background-repeat:no-repeat;
+    border-radius: 5px;
+    padding: 15px;
+}
+.button{
+    margin: 4px;
+    color: rgb(255, 255, 240);
+    width: 100px;
+    float: right;
+    text-align: center;
+    padding: 8px;
+    border: 2px solid rgba(255, 255, 240, 0.623);
+    border-radius: 15px;
+    background-color: #7267f000;
+    cursor: pointer;
+}
+.navigation{
+    position: sticky;
+    top: 20px;
+    z-index: 1;
+}
+
+.button:hover,.button a:hover{
+    color: #CE9FFC;
+}
+a{
+    text-decoration: none;
+    color: ivory;
+}
+nav{
+    height: 40px;
+    padding: 6px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+
+@media screen and (min-width:900px ) {
+    .slice{ 
+        display: inline-block;
+        padding: 0px;
+        color: rgb(255, 255, 240);
+        font-weight: 700;
+        font-family: 'Dongle', sans-serif;
+        font-size: 150px;
+        position: relative;
+        left: 100px;
+        top: -30px; 
+    }
+    .subtag{
+        display: inline-block;
+        padding: 0px;
+        font-family: 'Dongle', sans-serif;
+        font-size: 40px;
+        color: ivory;
+        font-weight: 700;
+        position: relative;
+        left: 250px;
+        top: -230px;
+    }
+
+    .img{
+        float: right;
+        width: 50%;
+        height: auto;
+        clip-path: ellipse(43% 36% at 50% 50%);
+    }
+    form{
+        width: 500px;
+        height: 200px;
+        display: inline-block;
+        background-color: rgba(255, 255, 240, 0.055);
+        padding: 10px;
+        border-radius: 5px;
+        position: relative;
+        top: -200px;
+        left: 50px;
+        box-shadow: -15px 15px rgba(137, 43, 226, 0.082);
+    }
+}
+@media screen and (max-width:900px ) and (min-width: 404px) {
+    .slice{ 
+        display: inline-block;
+        padding: 0px;
+        color: rgb(255, 255, 240);
+        font-weight: 700;
+        font-family: 'Dongle', sans-serif;
+        font-size: 80px;
+        position: relative;
+        left: 20px;
+        top: -20px; 
+    }
+    .subtag{
+        display: inline-block;
+        padding: 0px;
+        font-family: 'Dongle', sans-serif;
+        font-size: 20px;
+        color: ivory;
+        font-weight: 700;
+        position: relative;
+        left: 20px;
+        top: -130px;
+    }
+
+    .img{
+        float: right;
+        width: 50%;
+        height: auto;
+        clip-path: ellipse(43% 36% at 50% 50%);
+    }
+    form{
+        width: 304px;
+        height: auto;
+        display: inline-block;
+        background-color: rgba(255, 255, 240, 0.055);
+        padding: 10px;
+        border-radius: 5px;
+        position: relative;
+        bottom: 100px;
+        left: 20px;
+        box-shadow: -15px 15px rgba(137, 43, 226, 0.082);
+    }
+}
+
+@media screen and (max-width:404px ) {
+    .slice{ 
+        display: inline-block;
+        padding: 0px;
+        color: rgb(255, 255, 240);
+        font-weight: 700;
+        font-family: 'Dongle', sans-serif;
+        font-size: 50px;
+        position: relative;
+        left: 10px;
+        top: -50px; 
+    }
+    .subtag{
+        display: inline-block;
+        padding: 0px;
+        font-family: 'Dongle', sans-serif;
+        font-size: 15px;
+        color: ivory;
+        font-weight: 700;
+        position: relative;
+        left: 60px;
+        top: -120px;  
+    }
+
+    .img{
+        float: right;
+        width: 40%;
+        height: auto;
+        clip-path: ellipse(43% 36% at 50% 50%);
+    }
+    form{
+        width: 204px;
+        height: auto;
+        display: inline-block;
+        background-color: rgba(255, 255, 240, 0.055);
+        padding: 10px;
+        border-radius: 5px;
+        position: relative;
+        bottom: 100px;
+        left: 11px;
+        box-shadow: -15px 15px rgba(137, 43, 226, 0.082);
+    }
+}
+
+
+.head{
+    text-align: center;
+    color: rgba(255, 255, 240, 0.788);
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    padding: 0px;
+}
+label{
+    font-size: 20px;
+    display: inline-block;
+    width: 80px;
+    color: rgba(255, 255, 240, 0.788);
+    font-family: 'Dongle', sans-serif;
+}
+input[type=text],input[type=mail]{
+    width: 80%;
+    height: 23px;
+    display: inline-block;
+    background-color: rgba(255, 255, 240, 0.192);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 240, 0);
+}
